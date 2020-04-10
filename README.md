@@ -7,5 +7,6 @@ Java
 JWT Token 
 PostGresSQL
 Maven
-
+Swagger config
+Content Negotiation 
 
