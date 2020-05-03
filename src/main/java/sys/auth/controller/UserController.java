@@ -12,12 +12,10 @@ public class UserController {
     @Autowired
     private UserServices userServices;
 
-    @PostMapping(path = "user/CreateUser")
+   /* @PostMapping(path = "user/CreateUser")
     public User CreateUser(@RequestBody User user){
         return userServices.CreateUser(user);
-    }
-
-
+    }*/
 
     @GetMapping(path = "user/GetUsers")
     public List<User> GetUsers(){
