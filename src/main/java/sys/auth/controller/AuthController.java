@@ -30,17 +30,7 @@ import java.util.Collections;
 
 @RestController
 public class AuthController {
-    /*@Autowired
-    private AuthenticationManager authenticationManager;
-
-    @Autowired
-    private BCryptPasswordEncoder bCryptPasswordEncoder;
-
-    @Autowired
-    private JwtTokenProvider jwtTokenProvider;
-
-    @Autowired
-    private UserRepository userRepository;*/
+   
 
     @Autowired
     AuthenticationManager authenticationManager;
